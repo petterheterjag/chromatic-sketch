@@ -1,0 +1,26 @@
+{
+	"author" : "Petter Nilsson",
+	"authorEmail" : "petterheterjag@gmail.com",
+	"identifier": "com.sketchapp.plugins.chromatic-sketch",
+	"compatibleVersion": 3,
+	"bundleVersion": 1,
+	"commands": [
+		{
+			"name": "Fix Gradient",
+			"identifier": "fix-gradient",
+			"script": "./fix-gradient.js"
+		},
+		{
+			"name": "Create Color Scale",
+			"identifier": "create-color-scale",
+			"script": "./create-color-scale.js"
+		}
+	],
+	"menu": {
+		"title": "Chromatic Sketch",
+		"items": [
+			"fix-gradient",
+			"create-color-scale"
+		]
+	}
+}
