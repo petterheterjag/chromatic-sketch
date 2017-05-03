@@ -36,7 +36,7 @@ export default function (context) {
 
     for (let j = 1; j <= NEW_STOPS_IN_BETWEEN; j++) {
       const newStopDistance = 1 / (NEW_STOPS_IN_BETWEEN + 1) * j
-      improvedStops.push(makeStop(prevStop.pos + newStopDistance, scale(newStopDistance).hex()))
+      improvedStops.push(makeStop(prevStop.pos + newStopDistance * distance, scale(newStopDistance).hex()))
     }
 
     improvedStops.push(makeStop(nextStop.pos, nextStop.hex))
