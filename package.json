@@ -1,6 +1,6 @@
 {
 	"name": "chromatic-sketch",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Create good-looking and perceptually uniform gradients and color scales (using Chroma.js and the Lab color space)",
 	"main": "chromatic-sketch.sketchplugin",
 	"scripts": {

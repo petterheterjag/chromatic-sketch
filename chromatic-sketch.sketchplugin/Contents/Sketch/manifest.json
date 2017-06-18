@@ -2,6 +2,7 @@
   "author": "Petter Nilsson",
   "authorEmail": "petterheterjag@gmail.com",
   "identifier": "com.sketchapp.plugins.chromatic-sketch",
+  "appcast": "https://github.com/petterheterjag/chromatic-sketch/blob/master/appcast.xml?raw=true",
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "commands": [
@@ -23,7 +24,7 @@
       "create-color-scale"
     ]
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create good-looking and perceptually uniform gradients and color scales (using Chroma.js and the Lab color space)",
   "homepage": "http://petter.pro",
   "name": "chromatic-sketch",

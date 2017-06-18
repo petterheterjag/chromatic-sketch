@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Chromatic Sketch</title>
+    <link>https://github.com/petterheterjag/chromatic-sketch/blob/master/appcast.xml?raw=true</link>
+    <description>Create good-looking and perceptually uniform gradients and color scales.</description>
+    <language>en</language>
+      <item>
+        <title>Version 1.0.2</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Added support for Sketch's new system for updating plugins</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/petterheterjag/chromatic-sketch/releases/download/v1.0.2/chromatic-sketch-v1.0.2.zip" sparkle:version="1.0.2" />
+      </item>
+      <item>
+        <title>Version 1.0.1</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Now supports gradients with more than two colors (was a bug)</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/petterheterjag/chromatic-sketch/releases/download/v1.0.1/chromatic-sketch-v1.0.1.zip" sparkle:version="1.0.1" />
+      </item>
+  </channel>
+</rss>

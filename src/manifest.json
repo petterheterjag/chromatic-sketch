@@ -2,6 +2,7 @@
 	"author" : "Petter Nilsson",
 	"authorEmail" : "petterheterjag@gmail.com",
 	"identifier": "com.sketchapp.plugins.chromatic-sketch",
+	"appcast": "https://github.com/petterheterjag/chromatic-sketch/blob/master/appcast.xml?raw=true",
 	"compatibleVersion": 3,
 	"bundleVersion": 1,
 	"commands": [
