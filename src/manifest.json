@@ -1,27 +1,27 @@
 {
-	"author" : "Petter Nilsson",
-	"authorEmail" : "petterheterjag@gmail.com",
-	"identifier": "com.sketchapp.plugins.chromatic-sketch",
-	"appcast": "https://github.com/petterheterjag/chromatic-sketch/blob/master/appcast.xml?raw=true",
-	"compatibleVersion": 3,
-	"bundleVersion": 1,
-	"commands": [
-		{
-			"name": "Fix Gradient",
-			"identifier": "fix-gradient",
-			"script": "./fix-gradient.js"
-		},
-		{
-			"name": "Create Color Scale",
-			"identifier": "create-color-scale",
-			"script": "./create-color-scale.js"
-		}
-	],
-	"menu": {
-		"title": "Chromatic Sketch",
-		"items": [
-			"fix-gradient",
-			"create-color-scale"
-		]
-	}
+  "author" : "Petter Nilsson",
+  "authorEmail" : "petterheterjag@gmail.com",
+  "identifier": "com.sketchapp.plugins.chromatic-sketch",
+  "appcast": "https://github.com/petterheterjag/chromatic-sketch/blob/master/appcast.xml?raw=true",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Create Color Scale",
+      "identifier": "color-scale",
+      "script": "./color-scale.js"
+    },
+    {
+      "name": "Fix Gradient",
+      "identifier": "gradient",
+      "script": "./gradient.js"
+    }
+  ],
+  "menu": {
+    "title": "Chromatic Sketch",
+    "items": [
+    "color-scale",
+    "gradient"
+    ]
+  }
 }
