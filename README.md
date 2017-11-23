@@ -35,3 +35,9 @@ This command will create a scale between the fill colors of two selected shapes.
 ## Building from source
 1. Install dependencies: `npm install`
 2. Build plugin: `npm run build`
+
+## Created by
+Petter Nilsson  
+[Twitter](https://twitter.com/petterheterjag)  
+[Website](http://petter.pro)
+
