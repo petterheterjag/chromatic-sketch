@@ -1,20 +1,40 @@
 {
-	"name": "chromatic-sketch",
-	"version": "1.0.2",
-	"description": "Create good-looking and perceptually uniform gradients and color scales (using Chroma.js and the Lab color space)",
-	"main": "chromatic-sketch.sketchplugin",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "skpm build"
-	},
-	"author": "Petter Nilsson",
-	"homepage": "http://petter.pro",
-	"license": "ISC",
-	"manifest": "src/manifest.json",
-	"devDependencies": {
-		"skpm": "^0.8.2"
-	},
-	"dependencies": {
-    	"chroma-js": "^1.3.3"
-  	}
+  "name": "chromatic-sketch",
+  "version": "2.0.0",
+  "description": "Create good-looking and perceptually uniform gradients and color scales (using Chroma.js and the Lab color space)",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "chromatic-sketch",
+    "manifest": "src/manifest.json",
+    "main": "chromatic-sketch.sketchplugin"
+  },
+  "resources": [
+    "resources/script.js"
+  ],
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "author": "Petter Nilsson",
+  "homepage": "http://petter.pro",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "@skpm/builder": "^0.1.3",
+    "@skpm/extract-loader": "^1.0.1"
+  },
+  "dependencies": {
+    "aphrodite": "^1.2.5",
+    "chroma-js": "^1.3.3",
+    "rc-slider": "^8.3.1",
+    "react": "^16.0.0",
+    "react-color": "^2.13.8",
+    "react-desktop": "^0.3.1",
+    "react-dom": "^16.0.0",
+    "sketch-module-web-view": "^0.2.6"
+  }
 }

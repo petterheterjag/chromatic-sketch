@@ -7,24 +7,24 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "Fix Gradient",
-      "identifier": "fix-gradient",
-      "script": "fix-gradient.js"
+      "name": "Create Color Scale",
+      "identifier": "color-scale",
+      "script": "color-scale.js"
     },
     {
-      "name": "Create Color Scale",
-      "identifier": "create-color-scale",
-      "script": "create-color-scale.js"
+      "name": "Fix Gradient",
+      "identifier": "gradient",
+      "script": "gradient.js"
     }
   ],
   "menu": {
     "title": "Chromatic Sketch",
     "items": [
-      "fix-gradient",
-      "create-color-scale"
+      "color-scale",
+      "gradient"
     ]
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Create good-looking and perceptually uniform gradients and color scales (using Chroma.js and the Lab color space)",
   "homepage": "http://petter.pro",
   "name": "chromatic-sketch",
