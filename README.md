@@ -6,7 +6,7 @@ Create good-looking and perceptually uniform gradients and color scales (using [
 
 ## New in version 2.0.0
 - A proper UI that let's you preview and customize the gradient or color scale
-– You can now use the Lch, HSL and RGB color modes in addition to Lab
+- You can now use the Lch, HSL and RGB color modes in addition to Lab
 - Support for colors with alpha
 
 ## Background
