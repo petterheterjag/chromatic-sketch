@@ -6,6 +6,19 @@
     <description>Create good-looking and perceptually uniform gradients and color scales.</description>
     <language>en</language>
       <item>
+        <title>Version 2.0.0</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>A proper UI that let's you preview and customize the gradient or color scale</li>
+              <li>You can now use the Lch, HSL and RGB color modes in addition to Lab</li>
+              <li>Support for colors with alpha</li>
+            </ul>
+          ]]>
+        </description>
+        <enclosure url="https://github.com/petterheterjag/chromatic-sketch/releases/download/v2.0.0/chromatic-sketch-v2.0.0.zip" sparkle:version="2.0.0" />
+      </item>
+      <item>
         <title>Version 1.0.2</title>
         <description>
           <![CDATA[
