@@ -41,3 +41,5 @@ Petter Nilsson
 [Twitter](https://twitter.com/petterheterjag)  
 [Website](http://petter.pro)
 
+## License
+ISC
